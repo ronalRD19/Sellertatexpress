@@ -1,0 +1,53 @@
+<div class="col-md-4 mx-auto">
+  <div class="card">
+    <div class="card-header bg-dark text-center">
+      <h3 class="text-white">Nuevo usuario</h3>
+    </div>
+    <div class="card-body text-right">
+      <form action="/notes/new-note" method="POST" id="miFormulario">
+        <div class="mb-3">
+          <label for="title">Nombre:</label>
+          <input
+            type="text"
+            name="title"
+            class="form-control"
+            placeholder="Nombre"
+            autofocus
+          />
+        </div>
+        <div class="mb-3">
+          <label for="Apellido">Apellido:</label>
+          <input
+            type="text"
+            name="Apellido"
+            class="form-control"
+            placeholder="Apellido"
+            autofocus
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="Cedula">Cedula:</label>
+          <input
+            type="int"
+            name="Cedula"
+            class="form-control"
+            placeholder="Cedula"
+            autofocus
+          />
+        </div>
+        <div class="mb-3">
+          <label for="description">Descripcion:</label>
+          <textarea
+            name="description"
+            class="form-control"
+            placeholder="Description"
+          ></textarea>
+        </div>
+        <button class="btn btn-primary w-100" type="submit">
+          Guardar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
