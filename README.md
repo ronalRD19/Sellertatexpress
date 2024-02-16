@@ -1,56 +1,41 @@
-# Notes App NodeMongo
 
-This is a basic Web application to manage simple Notes on the web using Javascript Technologies like Nodejs, Mongodb, and other related technologies. Tecnically this is a Multi-Page Application using Handlebars as template engine.
+Bienvenido a nuestra plataforma especializada en la gestión integral de ventas Tienda a Tienda (TaT) para distribuidoras de productos desechables y congelados. Desarrollamos soluciones tecnológicas adaptadas a las necesidades específicas de la distribuidora, optimizando los procesos y proporcionando herramientas clave para el crecimiento y la eficiencia del negocio.
+    </p>
+    <p>Visión General:
+Nuestra plataforma nace con la misión de ofrecer a la distribuidora de Fontibón una solución integral para la gestión de ventas, inventario y clientes. Buscamos modernizar y potenciar la operación de la empresa, permitiendo una administración más eficiente y proporcionando a los clientes una experiencia de compra optimizada.</p>
+<p>Características Principales:</p>
 
-This app can do:
+<p>Gestión de Ventas:
 
-- CRUD Operations: create/read/update/delete Notes
-- Allows a user to do login and save his personal notes
+Realice pedidos de manera fácil y rápida a través de nuestra plataforma.
+Modificación, totalización o eliminación de pedidos según las necesidades del cliente.
+Notificaciones automáticas sobre cambios de precios y promociones exclusivas.</p>
+<p>Administración de Usuarios:
 
+Plataforma de acceso seguro y manejo de usuarios con opciones para registrar, modificar y eliminar cuentas.
+Perfiles personalizables para adaptarse a las responsabilidades específicas de cada usuario.</p>
+<p>Manejo de Inventarios:
 
-![](docs/screenshot.png)
+Módulo integral para el control preciso del inventario.
+Actualización automática de los valores de los productos para mantener información precisa.</p>
+<p>Informes y Estadísticas:
 
-### Installation
+Generación de informes detallados de ventas por cliente y producto.
+Herramientas de análisis para evaluar el rendimiento del negocio.</p>
+<p>Medios de Pago:
 
-```sh
-git clone https://github.com/FaztTech/nodejs-notes-app
-cd nodejs-notes-app
-npm i
-npm run dev # run in development mode
-npm start # run in production mode
-```
+Facilitamos el proceso de pagos ofreciendo diversas opciones para mayor comodidad del cliente.</p>
+<p>Notificaciones Personalizadas:
+Envío de notificaciones automáticas con cambios de precio y promociones exclusivas.</p>
+<p>Foco en la Localidad de Fontibón:
 
-> You need to have Mongodb installed Locally or stablish a MONGODB_URI environment variable in order to connect to any mongodb instance (using Mongodb Atlas for example)
+Diseñado exclusivamente para atender las necesidades logísticas y comerciales en la localidad de Fontibón.
+Ofrecemos una solución específica para mejorar la distribución y entrega de mercancía en este nicho de mercado.</p>
 
-### Environment Variables
-
-This app needs the following environment Variables
-
-- `MONGODB_URI` this is the Mongodb URI string
-- `PORT` the server http port for the application
-- `NODE_ENV` node environment
-
-### docker-compose
-
-The most easy way to install the entire project is using docker-compose:
-
-```shell
-git clone https://github.com/FaztTech/nodejs-notes-app
-cd nodejs-notes-app
-docker-compose up
-```
-
-### Default User
-
-when the app is lauched, this will create an Admin user with the following credentials:
-
-- email: `admin@localhost`
-- password: `adminpassword`
-
-### Tutorial
-
-This app was created with educational purposes, so you can found the tutorials in the following links:
-
-- [Version 2](https://www.youtube.com/playlist?list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy), new tutorial made in 2020
-  and these are old tutorials about this app
-- [Version 1.0.0](https://youtu.be/-bI0diefasA)
+<p><strong>Beneficios:</p></strong>
+<p>Eficiencia Operativa: Simplificamos y optimizamos los procesos, permitiendo un manejo más eficiente de las operaciones diarias.</p>
+<p>Experiencia del Cliente: Mejoramos la experiencia de compra para los clientes, brindando opciones intuitivas y notificaciones relevantes.</p>
+<p>Crecimiento Sostenible: Facilitamos la expansión del negocio al proporcionar herramientas clave para el crecimiento y la adaptación a nuevas demandas.</p>
+<p>En SellerTaT, estamos comprometidos con la innovación y la excelencia, ofreciendo una solución tecnológica adaptada a las necesidades específicas de la distribuidora. ¡Únase a nosotros en el viaje hacia el futuro de la gestión comercial en el mercado Tienda a Tienda!</p>
+  </div>
+</section>
