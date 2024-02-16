@@ -1,0 +1,45 @@
+
+    {{#each descuentos}}
+    <!--<pre>{{this}}</pre>-->
+        <div class="col-md-3" >
+                <div class="card" >
+                        <div class="card-body" >
+                                <h3 class="card-title d-flex justify-content-between align-items-center"> 
+                                      {{nit}}
+                                </h3>
+                                <p >  {{idDescuento}}</p>
+                                <p >  {{categoria}}</p>
+                                <p >  {{valor}}</p>
+                              
+                                
+                                <form action="/descuentos/delete/{{_id}}?_method=DELETE" method="POST">
+                                        <input type="hidden" name="_method" value="DELETE">
+
+                                        <button type="submit" class="btn btn-danger btn-block btn-sm">
+                                                Borrar
+                                        </button>
+
+                                        <button type="submit" class="btn btn-danger btn-block btn-sm  ">
+                                            <a class="text-decoration-none text-white " href="/descuentos/edit{{_id}}" >Actualizar</a>
+                                        </button>
+                                </form>
+
+
+                        </div>
+                </div>
+        </div>
+    
+    {{else}}
+    <div class="col-md-4 mx-auto">
+     <div class="card mx-auto"> 
+        <div class="card-body ">
+                <h1>Bienvenido {{descuentos.nombre}}</h1>
+                <p class="lead"> No hay descuentos creados</p>
+                <a href="/descuentos/add" class="btn btn-success btn-block mx-auto"> Crear un descuento</a>
+        </div>
+     </div>
+    </div>
+
+    {{/each}}
+    
+</div>

@@ -1,0 +1,43 @@
+   {{#each bodegas}}
+    <!--<pre>{{this}}</pre>-->
+        <div class="col-md-3" >
+                <div class="card" >
+                        <div class="card-body" >
+                                <h3 class="card-title d-flex justify-content-between align-items-center"> 
+                                      {{nitBodega}}
+                                </h3>
+                                <p >  {{nombreBodega}}</p>
+                                <p >  {{direccionBodega}}</p>
+  
+                                
+                                <form action="/bodegas/delete/{{_id}}?_method=DELETE" method="POST">
+                                        <input type="hidden" name="_method" value="DELETE">
+
+                                        <button type="submit" class="btn btn-danger btn-block btn-sm">
+                                                Borrar
+                                        </button>
+
+                                        <button type="submit" class="btn btn-danger btn-block btn-sm  ">
+                                            <a class="text-decoration-none text-white " href="/bodegas/edit{{_id}}" >Actualizar</a>
+                                        </button>
+                                </form>
+
+
+                        </div>
+                </div>
+        </div>
+    
+    {{else}}
+    <div class="col-md-4 mx-auto">
+     <div class="card mx-auto"> 
+        <div class="card-body ">
+                <h1>Bienvenido {{bodegas.nitBodega}}</h1>
+                <p class="lead"> No hay Bodegas creadas</p>
+                <a href="/bodegas/add" class="btn btn-success btn-block mx-auto"> Crear una Bodega</a>
+        </div>
+     </div>
+    </div>
+
+    {{/each}}
+    
+</div>

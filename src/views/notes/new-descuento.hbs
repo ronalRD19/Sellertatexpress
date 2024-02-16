@@ -1,0 +1,29 @@
+<div class="col-md-4 mx-auto">
+    <div class="card">
+
+        <div class="header">
+            <h3>Agregar descuento</h3>
+        </div>
+
+        <div class="car-body">
+            <form action="/descuentos/new-descuentos" method="POST">
+
+                <div class="form-group">
+                    <input list="nombreProductos" type="text" name="idDescuento" class="form-control" placeholder="idDescuento"autofocus>
+                </div>
+                <div class="form-group">
+                    <input list="marca" type="text" name="categoria" class="form-control" placeholder="categoria">
+                </div>
+                <div class="form-group">
+                    <input list="marca" type="text" name="valor" class="form-control" placeholder="valor">
+                </div>
+
+                    <button class="btn btn-primary btn-block" type="submit">
+                        Save
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+<div class="col-md-4 mx-auto">
+    
+        <div class="card">
+                <div class="card-header">
+                    <h3>Editar Clientes</h3>
+                </div>
+
+                <div class="card-body">
+                    <form action="/clientes/edit-clientes/{{clientes._id}}?_method=PUT" method="POST">
+                    <input type="hidden" name="_method" value="PUT">
+
+                                         
+
+                                        <div class="form-group">
+                                            <input type="text" name="nit" class="form-control" placeholder="Nit" value="{{clientes.nit}}">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="nombre" class="form-control" placeholder="Nombre" value="{{clientes.nombre}}">
+                                        </div>
+                                         <div class="form-group">
+                                            <input type="text" name="direccion" class="form-control" placeholder="Direccion" value="{{clientes.direccion}}">
+                                        </div>
+                                        <div class="form-group">
+                                            
+                                            <input type="text" name="zona" class="form-control" placeholder="Zona" value="{{clientes.zona}}">
+                                        </div>
+                                         <div class="form-group">
+                                            
+                                            <input type="text" name="contacto" class="form-control" placeholder="Contacto" value="{{clientes.contacto}}">
+                                        </div>
+                                         <div class="form-group">
+                                            
+                                            <input type="text" name="descuento" class="form-control" placeholder="Descuento" value="{{clientes.descuento}}">
+                                        </div>
+                                         <div class="form-group">
+                                            
+                                            <input type="text" name="FechaIngreso" class="form-control" placeholder="Fecha de Ingreso" value="{{clientes.FechaIngreso}}">
+                                        </div>
+
+   
+                                        
+                                        <div class="form-group">
+                                            <button class="btn btn-primary btn-block" type="submit">
+                                                Save
+                                            </button>
+                                       </div>
+                    </form>
+                </div>
+        </div>
+
+</div>

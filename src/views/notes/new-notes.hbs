@@ -1,0 +1,118 @@
+<div class="col-md-4 mx-auto" >
+            <div class="card" >
+                
+                    <div class="header">
+                        <h3>Agregar producto</h3>
+                    </div>
+                
+                <div class="car-body">
+                    <form action="/notes/new-note" method="POST">
+                    
+                            <div class="form-group">
+                                <input  list="nombreProductos"  type="text" name="nombreProducto" class="form-control" placeholder="Nombre" autofocus>
+                                 
+                                  <datalist id="nombreProductos">
+                                  <option value="Aceites comestibles"></option>
+                                  <option value="Adobos"></option>
+                                  <option value="Crema de maní"></option>
+                                  <option value="Alimentos para bebé"></option>
+                                  <option value="Alimento para mascotas"></option>
+                                  <option value="Avena"></option>
+                                  <option value="Avena"></option>
+                                  <option value="Café"></option>
+                                  <option value="Cereales"></option>
+                                  <option value="Especias"></option>
+                                  <option value="Harina"></option>
+                                  <option value="Sal"></option>
+                                  <option value="Salsa de tomate"></option>
+                                  <option value="Mayonesa"></option>
+                                  <option value="Huevo"></option>
+                                  <option value="Vinagre"></option>
+                                  <option value="Pastas"></option>
+                                  <option value="Té"></option>
+                                  <option value="Lácteos"></option>
+                                  <option value="Confitería"></option>
+                                  <option value="Bebidas"></option>
+                                  <option value="Alimentos preparados"></option>
+                                  <option value="Frutas y verduras"></option>
+                                  <option value="Artículos de higiene personal"></option>
+                                  <option value="Cloro"></option>
+                                  <option value="Desinfectante"></option>
+                                  <option value="Velas"></option>
+                                  <option value="Insecticidas"></option>
+                                  <option value="Detergentes para los platos"></option>
+                                  <option value="Detergentes para la ropa"></option>
+                                  <option value="Pilas"></option>
+                                  <option value="Papel higiénico"></option>
+                                  <option value="Pasta dental"></option>
+                                  <option value="Cepillo de dientes"></option>
+                                  <option value="Cepillo para lavar"></option>
+                                  <option value="Jabones de tocador"></option>
+                                  <option value="Cinta adhesiva"></option>
+                                </datalist>
+                           
+                            </div>
+                            <div class="form-group">
+                                <input  list="marca" type="text" name="marca" class="form-control" placeholder="Marca">
+                                
+                                <datalist id="marca">
+                                  <option value="Nestlé"></option>
+                                  <option value="Pepsi"></option>
+                                  <option value="Coca cola"></option>
+                                  <option value="Unilever"></option>
+                                  <option value="Danone"></option>
+                                  <option value="Mondelēz Internacional"></option>
+                                  <option value="Groupe Lactalis"></option>
+                                  <option value="General Mills"></option>
+                                  <option value="Arroz Diana"></option>
+                                  <option value="Bimbo"></option>
+                                  <option value="Cocacola"></option>
+                                  <option value="Alquería"></option>
+                                  <option value="Alpina"></option>
+                                  <option value="Colanta"></option>
+                        
+                                </datalist>
+                            
+                            
+                            </div>
+                            <div class="form-group">
+
+
+                                <input   list="precios"  type="text" name="precio" class="form-control" placeholder="Precio">
+                                  <datalist id="precios">
+                                  <option value="1000"></option>
+                                  <option value="2000"></option>
+                                  <option value="3000"></option>
+                                  <option value="4000"></option>
+                                  <option value="5000"></option>
+                                  <option value="6000"></option>
+                                  <option value="7000"></option>
+                                  <option value="8000"></option>
+                                  <option value="9000"></option>
+                                  <option value="10000"></option>
+                                  <option value="11000"></option>
+                                  <option value="12000"></option>
+                                  <option value="13000"></option>
+                                  <option value="15000"></option>
+                                  </datalist>
+                            </div>
+
+                             <div class="form-group">
+                                <input type="text" name="cantidad" class="form-control" placeholder="Cantidad">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="descripcion" class="form-control" placeholder="Descripcion"></textarea>
+                            </div>
+
+                            <div class="form-group" >
+                                <button class="btn btn-primary btn-block" type="submit" >
+                                    Save
+                                </button>
+
+                            </div>
+                    </form>
+                </div>
+    </div>
+</div>
+

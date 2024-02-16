@@ -1,0 +1,96 @@
+<nav class="navbar navbar-expand-lg navbar-dark p-2 bg-black">
+  <div class="container">
+    <a class="navbar-brand" href="/">¡SellerTaT!</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/about">Acerca de</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        {{#if user}}
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Producto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/notes">Lista de productos</a></li>
+                  <li><a class="dropdown-item" href="/notes/add">Agregar productos</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clientes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Clientes">Lista de Clientes</a></li>
+                  <li><a class="dropdown-item" href="/Clientes/add">Agregar Clientes</a></li>
+               
+              
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bodegas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/notes">Lista de Bodegas</a></li>
+                  <li><a class="dropdown-item" href="/notes/add">Agregar Bodegas</a></li>
+               
+                
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Descuentos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Descuentos">Lista de Descuentos</a></li>
+                  <li><a class="dropdown-item" href="/Descuentos/add">Agregar Descuentos</a></li>
+          
+                
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Facturas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/notes">Lista de Facturas</a></li>
+                  <li><a class="dropdown-item" href="/notes/add">Agregar Facturas</a></li>
+        
+                </ul>
+              </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cerrar sesion
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/users/logout">Cerrar sesion</a></li>
+                </ul>
+              </li>
+              
+                 {{else}}
+          <li class="nav-item">
+            <a class="nav-link" href="/users/signin">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/users/signup">Registrarse</a>
+          </li>
+        {{/if}}
+      </ul>
+    </div>
+  </div>
+</nav>

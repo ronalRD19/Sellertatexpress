@@ -1,0 +1,14 @@
+body {
+    background-color: #2e2e2e;
+    opacity: 15;
+    background: radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#e64444 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #e64444 2px, #2e2e2e 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+  
+  .bg-black {
+    background: #090909;
+  }
