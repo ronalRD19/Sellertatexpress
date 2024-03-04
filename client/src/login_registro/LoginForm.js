@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css"; // Estilos de Bootstrap
 
 function LoginForm() {
   const [username, setUsername] = useState("");
@@ -22,6 +23,7 @@ function LoginForm() {
 
   return (
     <div className="loginForm">
+      <img src="/Logo.png" alt="Logo" className="logo" />
       <form>
         <h4>Login Here</h4>
         <label htmlFor="username">Username*</label>

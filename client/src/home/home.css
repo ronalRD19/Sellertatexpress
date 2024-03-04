@@ -1,0 +1,49 @@
+body {
+  background-color: #2e2e2e;
+  opacity: 15;
+  background: radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #2e2e2e 20%, #2e2e2e 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#e64444 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #e64444 2px, #2e2e2e 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+
+/* home.css */
+
+.homePage {
+  min-height: 100vh; /* Altura mínima de la página */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background-color: #000000 !important; /* Fondo de la tarjeta */
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card h1 {
+  font-family: "Roboto", sans-serif; /* Fuente moderna */
+  color: #2e2e2e;
+}
+
+.card p {
+  font-size: 1.2rem; /* Tamaño del texto */
+  color: #2e2e2e;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545 ;
+  color: #fff ;
+  padding: 10px 20px; /* Ajuste del relleno */
+  font-size: 1.2rem; /* Tamaño del texto */
+  border-radius: 30px; /* Bordes redondeados */
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+.btn-danger:hover {
+  background-color: #dc3545 ;
+  border-color: #dc3545 ;
+  color: #fff ; /* Color del borde del botón al pasar el mouse */
+}
