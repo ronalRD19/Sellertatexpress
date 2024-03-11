@@ -1,0 +1,43 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para el mensaje de estado */
+  p {
+    margin-top: 10px;
+    color: rgb(243, 12, 12);
+  }
